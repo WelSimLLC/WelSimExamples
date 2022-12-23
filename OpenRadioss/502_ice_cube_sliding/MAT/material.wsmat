@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WelSimMaterialData revision="7801" versiondate="2022-12-23" version="2.5.0.1">
+  <Notes>WELSIM material database file. For more information, visit https://welsim.com</Notes>
+  <SysUnits systemUnit="3" angVelocityUnit="441" tempUnit="32" angleUnit="302"/>
+  <Materials>
+    <MatML_Doc>
+      <Material>
+        <BulkDetails>
+          <Name>Test 69 (Johnson-Cook)</Name>
+          <ID>19</ID>
+          <PropertyData suppress="0" name="Density" property="pr0" type="4">
+            <Data format="float">7.8e-09</Data>
+          </PropertyData>
+          <PropertyData suppress="0" name="Isotropic Elasticity" property="pr1" type="514">
+            <Data format="string">-</Data>
+            <Qualifier name="DeriveFrom" index="0">Young's Modulus and Poisson's Ratio</Qualifier>
+            <ParameterValue parameter="pa0" name="Young's Modulus" type="207">
+              <Data format="float">210000</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Poisson's Ratio" type="210">
+              <Data format="float">0.3</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa1" name="Bulk Modulus" type="208">
+              <Data format="float">175000</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa2" name="Shear Modulus" type="209">
+              <Data format="float">80769.2307692308</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData suppress="0" name="Johnson-Cook Strength" property="pr2" type="592">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa3" name="Initial Yield Stress" type="521">
+              <Data format="float">200</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa4" name="Hardening Constant" type="522">
+              <Data format="float">400</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Hardening Exponent" type="523">
+              <Data format="float">0.5</Data>
+            </ParameterValue>
+            <Qualifier name="FailureSuppress" index="1">True</Qualifier>
+            <Qualifier name="StrainRateSuppress" index="0">False</Qualifier>
+            <Qualifier name="TemperatureSuppress" index="0">False</Qualifier>
+            <ParameterValue parameter="unitless" name="Failure Plastic Strain" type="610">
+              <Data format="float">1e+30</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa5" name="Maximum Stress" type="611">
+              <Data format="float">1e+30</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa6" name="Cutoff Minimum Pressure" type="612">
+              <Data format="float">-1e+30</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Strain Rate Constant" type="524">
+              <Data format="float">0.2</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa7" name="Reference Strain Rate" type="527">
+              <Data format="float">1.5</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Thermal Softening Exponent" type="525">
+              <Data format="float">1</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" name="Melting Temperature" type="526">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa9" name="Specific Heat Density By Volume" type="151">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa10" name="Reference Temperature" type="448">
+              <Data format="float">298</Data>
+            </ParameterValue>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Material>
+        <BulkDetails>
+          <Name>Ice2</Name>
+          <ID>20</ID>
+          <PropertyData suppress="0" name="Density" property="pr0" type="4">
+            <Data format="float">9.16e-10</Data>
+          </PropertyData>
+          <PropertyData suppress="0" name="Isotropic Elasticity" property="pr1" type="514">
+            <Data format="string">-</Data>
+            <Qualifier name="DeriveFrom" index="0">Young's Modulus and Poisson's Ratio</Qualifier>
+            <ParameterValue parameter="pa0" name="Young's Modulus" type="207">
+              <Data format="float">8996</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Poisson's Ratio" type="210">
+              <Data format="float">0.3</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa1" name="Bulk Modulus" type="208">
+              <Data format="float">7496.66666666667</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa2" name="Shear Modulus" type="209">
+              <Data format="float">3460</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData suppress="0" name="Johnson-Cook Strength" property="pr2" type="592">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa11" name="Initial Yield Stress" type="521">
+              <Data format="float">1</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa4" name="Hardening Constant" type="522">
+              <Data format="float">4</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Hardening Exponent" type="523">
+              <Data format="float">0.5</Data>
+            </ParameterValue>
+            <Qualifier name="FailureSuppress" index="1">True</Qualifier>
+            <Qualifier name="StrainRateSuppress" index="0">False</Qualifier>
+            <Qualifier name="TemperatureSuppress" index="0">False</Qualifier>
+            <ParameterValue parameter="unitless" name="Failure Plastic Strain" type="610">
+              <Data format="float">1e+30</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa5" name="Maximum Stress" type="611">
+              <Data format="float">1e+30</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa6" name="Cutoff Minimum Pressure" type="612">
+              <Data format="float">-1e+30</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Strain Rate Constant" type="524">
+              <Data format="float">0.2</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa7" name="Reference Strain Rate" type="527">
+              <Data format="float">1.5</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Thermal Softening Exponent" type="525">
+              <Data format="float">1</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa8" name="Melting Temperature" type="526">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa9" name="Specific Heat Density By Volume" type="151">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa10" name="Reference Temperature" type="448">
+              <Data format="float">298</Data>
+            </ParameterValue>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Metadata>
+        <ParameterDetails id="pa9" unit="1361" quantity="151">
+          <Name>Specific Heat Density By Volume</Name>
+          <Units>
+            <Unit>
+              <Name/>J</Unit>
+            <Unit power="-3">
+              <Name/>m</Unit>
+            <Unit power="-1">
+              <Name/>K</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa0" unit="56" quantity="207">
+          <Name>Young's Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa1" unit="56" quantity="208">
+          <Name>Bulk Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa2" unit="56" quantity="209">
+          <Name>Shear Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa10" unit="31" quantity="448">
+          <Name>Reference Temperature</Name>
+          <Units>
+            <Unit>
+              <Name/>K</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa11" unit="51" quantity="521">
+          <Name>Initial Yield Stress</Name>
+          <Units>
+            <Unit>
+              <Name/>Pa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa3" unit="56" quantity="521">
+          <Name>Initial Yield Stress</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa4" unit="56" quantity="522">
+          <Name>Hardening Constant</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa8" unit="32" quantity="526">
+          <Name>Melting Temperature</Name>
+          <Units>
+            <Unit>
+              <Name/>C</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa7" unit="861" quantity="527">
+          <Name>Reference Strain Rate</Name>
+          <Units>
+            <Unit>
+              <Name/>-</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa5" unit="56" quantity="611">
+          <Name>Maximum Stress</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa6" unit="56" quantity="612">
+          <Name>Cutoff Minimum Pressure</Name>
+          <Units>
+            <Unit>
+              <Name/>MPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <PropertyDetails id="pr0" unit="17" quantity="26">
+          <Name>Density</Name>
+          <Units>
+            <Unit>
+              <Name/>tonne</Unit>
+            <Unit power="-3">
+              <Name/>mm</Unit>
+          </Units>
+        </PropertyDetails>
+      </Metadata>
+    </MatML_Doc>
+  </Materials>
+</WelSimMaterialData>
