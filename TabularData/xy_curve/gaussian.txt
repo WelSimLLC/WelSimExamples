@@ -1,0 +1,21 @@
+### Material table data exported from WELSIM
+### 2020-08-08 Saturday 19:14                       
+                       x                    y(x)                       
+                       -                       -                       
+             Independent               Dependent                       
+                       0                       0                       
+                       1                       1                       
+                       2                       3                       
+                       3                       5                       
+                       4                       7                       
+                       5                       9                       
+                       6                      11                       
+                       7                      12                       
+                       8                      16                       
+                       9                      25                       
+                      10                      20                       
+                      11                      18                       
+                      12                      16                       
+                      13                      14                       
+                      14                      12                       
+                      15                      10                       
