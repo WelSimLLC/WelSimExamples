@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WelSimMaterialData revision="8237" version="2.7.0.1" versiondate="2023-4-26">
+  <Notes>WELSIM material database file. For more information, visit https://welsim.com</Notes>
+  <SysUnits angVelocityUnit="441" angleUnit="302" tempUnit="32" systemUnit="4"/>
+  <Materials>
+    <MatML_Doc>
+      <Material>
+        <BulkDetails>
+          <Name>Structural Steel</Name>
+          <ID>3</ID>
+          <PropertyData name="Density" type="4" property="pr0" suppress="0">
+            <Data format="float">0.283599</Data>
+          </PropertyData>
+          <PropertyData name="Compressive Ultimate Strength" type="507" property="pr1" suppress="0">
+            <Data format="float">0</Data>
+          </PropertyData>
+          <PropertyData name="Isotropic Thermal Expansion" type="531" property="pr2" suppress="0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa0" name="Thermal Expansivity" type="165">
+              <Data format="float">1.2e-05</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa1" name="Temperature" type="8">
+              <Data format="float">71.6</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData name="Tensile Ultimate Strength" type="506" property="pr3" suppress="0">
+            <Data format="float">65267</Data>
+          </PropertyData>
+          <PropertyData name="Isotropic Thermal Conductivity" type="570" property="pr4" suppress="0">
+            <Data format="float">0.000809169</Data>
+          </PropertyData>
+          <PropertyData name="Isotropic Elasticity" type="514" property="pr5" suppress="0">
+            <Data format="string">-</Data>
+            <Qualifier name="DeriveFrom" index="0">Young's Modulus and Poisson's Ratio</Qualifier>
+            <ParameterValue parameter="pa2" name="Young's Modulus" type="207">
+              <Data format="float">29007500</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Poisson's Ratio" type="210">
+              <Data format="float">0.3</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa3" name="Bulk Modulus" type="208">
+              <Data format="float">24172916.6666667</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa4" name="Shear Modulus" type="209">
+              <Data format="float">11156730.7692308</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData name="Strain Life Parameters" type="503" property="pr6" suppress="0">
+            <Data format="string">-</Data>
+            <Qualifier name="Display Curve Type" index="0">Strain-Life</Qualifier>
+            <ParameterValue parameter="pa5" name="Strength Coefficient" type="201">
+              <Data format="float">133435</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Strength Exponent" type="202">
+              <Data format="float">-0.106</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Ductility Coefficient" type="203">
+              <Data format="float">0.213</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Ductility Exponent" type="204">
+              <Data format="float">-0.47</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa6" name="Cyclic Strength Coefficient" type="205">
+              <Data format="float">145038</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Cyclic Strain Hardening Exponent" type="206">
+              <Data format="float">0.2</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData name="Tensile Yield Strength" type="504" property="pr7" suppress="0">
+            <Data format="float">36259.4</Data>
+          </PropertyData>
+          <PropertyData name="Compressive Yield Strength" type="505" property="pr8" suppress="0">
+            <Data format="float">36259.4</Data>
+          </PropertyData>
+          <PropertyData name="Specific Heat" type="202" property="pr9" suppress="0">
+            <Data format="float">0.103659</Data>
+          </PropertyData>
+          <PropertyData name="Isotropic Relative Permeability" type="573" property="unitless" suppress="0">
+            <Data format="float">10000</Data>
+          </PropertyData>
+          <PropertyData name="Isotropic Resistivity" type="574" property="pr10" suppress="0">
+            <Data format="float">8.52349</Data>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Metadata>
+        <ParameterDetails id="pa1" quantity="8" unit="34">
+          <Name>Temperature</Name>
+          <Units>
+            <Unit>
+              <Name/>F</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa0" quantity="165" unit="36">
+          <Name>Thermal Expansivity</Name>
+          <Units>
+            <Unit power="-1">
+              <Name/>C</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa5" quantity="201" unit="55">
+          <Name>Strength Coefficient</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa6" quantity="205" unit="55">
+          <Name>Cyclic Strength Coefficient</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa2" quantity="207" unit="55">
+          <Name>Young's Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa3" quantity="208" unit="55">
+          <Name>Bulk Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa4" quantity="209" unit="55">
+          <Name>Shear Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </ParameterDetails>
+        <PropertyDetails id="pr0" quantity="26" unit="14">
+          <Name>Density</Name>
+          <Units>
+            <Unit>
+              <Name/>lbm</Unit>
+            <Unit power="-3">
+              <Name/>in</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr9" quantity="122" unit="84">
+          <Name>Specific Heat</Name>
+          <Units>
+            <Unit>
+              <Name/>BTU</Unit>
+            <Unit power="-1">
+              <Name/>lbm</Unit>
+            <Unit power="-1">
+              <Name/>F</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr7" quantity="260" unit="55">
+          <Name>Tensile Yield Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr8" quantity="259" unit="55">
+          <Name>Compressive Yield Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr3" quantity="261" unit="55">
+          <Name>Tensile Ultimate Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr1" quantity="258" unit="55">
+          <Name>Compressive Ultimate Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>psi</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr4" quantity="163" unit="176">
+          <Name>Thermal Conductivity</Name>
+          <Units>
+            <Unit>
+              <Name/>BTU</Unit>
+            <Unit power="-1">
+              <Name/>in</Unit>
+            <Unit power="-1">
+              <Name/>s</Unit>
+            <Unit power="-1">
+              <Name/>F</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr10" quantity="43" unit="106">
+          <Name>Electrical Resistivity</Name>
+          <Units>
+            <Unit>
+              <Name/>ohm</Unit>
+            <Unit>
+              <Name/>cmil</Unit>
+            <Unit power="-1">
+              <Name/>in</Unit>
+          </Units>
+        </PropertyDetails>
+      </Metadata>
+    </MatML_Doc>
+  </Materials>
+</WelSimMaterialData>
