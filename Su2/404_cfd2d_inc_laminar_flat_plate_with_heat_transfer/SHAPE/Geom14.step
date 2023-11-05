@@ -2,10 +2,10 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('WelSim Geometry'),'2;1');
 FILE_NAME(
-'D:\\WelSimLLC\\executable26\\
+'D:\\WelSimLLC-github\\WelSimExamples\\Su2\\
 404_cfd2d_inc_laminar_flat_plate_with_heat_transfer\\SHAPE\\Geom14.step'
-  ,'2023-04-09T22:30:19',('WELSIM'),('WelSimulation LLC'),
-  'Open CASCADE STEP processor 7.5','WelSim26','Unknown');
+  ,'2023-11-05T15:27:04',('WELSIM'),('WelSimulation LLC'),
+  'Open CASCADE STEP processor 7.5','WelSim27','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 DATA;
