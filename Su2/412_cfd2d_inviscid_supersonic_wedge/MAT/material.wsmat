@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<WelSimMaterialData revision="8601" version="2.7.0.1" versiondate="2023-11-6">
+<WelSimMaterialData versiondate="2023-11-6" version="2.7.0.1" revision="8601">
   <Notes>WELSIM material database file. For more information, visit https://welsim.com</Notes>
-  <SysUnits angVelocityUnit="441" tempUnit="31" angleUnit="302" systemUnit="2"/>
+  <SysUnits tempUnit="31" systemUnit="2" angleUnit="302" angVelocityUnit="441"/>
   <Materials>
     <MatML_Doc>
       <Material>
@@ -11,10 +11,7 @@
           <PropertyData property="pr0" type="4" name="Density" suppress="0">
             <Data format="float">7.85e-06</Data>
           </PropertyData>
-          <PropertyData property="pr1" type="507" name="Compressive Ultimate Strength" suppress="0">
-            <Data format="float">0</Data>
-          </PropertyData>
-          <PropertyData property="pr2" type="531" name="Isotropic Thermal Expansion" suppress="0">
+          <PropertyData property="pr1" type="531" name="Isotropic Thermal Expansion" suppress="0">
             <Data format="string">-</Data>
             <ParameterValue type="165" name="Thermal Expansivity" parameter="pa0">
               <Data format="float">1.2e-05</Data>
@@ -23,15 +20,12 @@
               <Data format="float">22</Data>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr3" type="570" name="Isotropic Thermal Conductivity" suppress="0">
-            <Data format="float">0.0605</Data>
+          <PropertyData property="pr2" type="507" name="Compressive Ultimate Strength" suppress="0">
+            <Data format="float">0</Data>
           </PropertyData>
-          <PropertyData property="pr4" type="506" name="Tensile Ultimate Strength" suppress="0">
-            <Data format="float">450000</Data>
-          </PropertyData>
-          <PropertyData property="pr5" type="514" name="Isotropic Elasticity" suppress="0">
+          <PropertyData property="pr3" type="514" name="Isotropic Elasticity" suppress="0">
             <Data format="string">-</Data>
-            <Qualifier name="DeriveFrom" index="0">Young's Modulus and Poisson's Ratio</Qualifier>
+            <Qualifier index="0" name="DeriveFrom">Young's Modulus and Poisson's Ratio</Qualifier>
             <ParameterValue type="207" name="Young's Modulus" parameter="pa2">
               <Data format="float">200000000</Data>
             </ParameterValue>
@@ -45,9 +39,15 @@
               <Data format="float">76923076.9230769</Data>
             </ParameterValue>
           </PropertyData>
+          <PropertyData property="pr4" type="570" name="Isotropic Thermal Conductivity" suppress="0">
+            <Data format="float">0.0605</Data>
+          </PropertyData>
+          <PropertyData property="pr5" type="506" name="Tensile Ultimate Strength" suppress="0">
+            <Data format="float">450000</Data>
+          </PropertyData>
           <PropertyData property="pr6" type="503" name="Strain Life Parameters" suppress="0">
             <Data format="string">-</Data>
-            <Qualifier name="Display Curve Type" index="0">Strain-Life</Qualifier>
+            <Qualifier index="0" name="Display Curve Type">Strain-Life</Qualifier>
             <ParameterValue type="201" name="Strength Coefficient" parameter="pa5">
               <Data format="float">920000</Data>
             </ParameterValue>
@@ -94,17 +94,17 @@
           <PropertyData property="pr0" type="4" name="Density" suppress="0">
             <Data format="float">1.1614e-09</Data>
           </PropertyData>
+          <PropertyData property="pr4" type="570" name="Isotropic Thermal Conductivity" suppress="0">
+            <Data format="float">2.6e-05</Data>
+          </PropertyData>
+          <PropertyData property="pr9" type="202" name="Specific Heat" suppress="0">
+            <Data format="float">1.007e+06</Data>
+          </PropertyData>
           <PropertyData property="pr11" type="1002" name="Kinematic Viscosity" suppress="0">
             <Data format="float">0</Data>
             <ParameterValue type="612" name="Cutoff Minimum Pressure" parameter="pa7">
               <Data format="float">-1e+20</Data>
             </ParameterValue>
-          </PropertyData>
-          <PropertyData property="pr9" type="202" name="Specific Heat" suppress="0">
-            <Data format="float">1.007e+06</Data>
-          </PropertyData>
-          <PropertyData property="pr3" type="570" name="Isotropic Thermal Conductivity" suppress="0">
-            <Data format="float">2.6e-05</Data>
           </PropertyData>
           <PropertyData property="unitless" type="302" name="Isotropic Relative Permittivity" suppress="0">
             <Data format="float">1</Data>
@@ -124,63 +124,63 @@
         </BulkDetails>
       </Material>
       <Metadata>
-        <ParameterDetails id="pa1" quantity="8" unit="32">
+        <ParameterDetails quantity="8" id="pa1" unit="32">
           <Name>Temperature</Name>
           <Units>
             <Unit>
               <Name/>C</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa0" quantity="165" unit="36">
+        <ParameterDetails quantity="165" id="pa0" unit="36">
           <Name>Thermal Expansivity</Name>
           <Units>
             <Unit power="-1">
               <Name/>C</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa5" quantity="201" unit="64">
+        <ParameterDetails quantity="201" id="pa5" unit="64">
           <Name>Strength Coefficient</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa6" quantity="205" unit="64">
+        <ParameterDetails quantity="205" id="pa6" unit="64">
           <Name>Cyclic Strength Coefficient</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa2" quantity="207" unit="64">
+        <ParameterDetails quantity="207" id="pa2" unit="64">
           <Name>Young's Modulus</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa3" quantity="208" unit="64">
+        <ParameterDetails quantity="208" id="pa3" unit="64">
           <Name>Bulk Modulus</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa4" quantity="209" unit="64">
+        <ParameterDetails quantity="209" id="pa4" unit="64">
           <Name>Shear Modulus</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa7" quantity="612" unit="64">
+        <ParameterDetails quantity="612" id="pa7" unit="64">
           <Name>Cutoff Minimum Pressure</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </ParameterDetails>
-        <PropertyDetails id="pr0" quantity="26" unit="16">
+        <PropertyDetails quantity="26" id="pr0" unit="16">
           <Name>Density</Name>
           <Units>
             <Unit>
@@ -189,7 +189,7 @@
               <Name/>mm</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr9" quantity="122" unit="5102">
+        <PropertyDetails quantity="122" id="pr9" unit="5102">
           <Name>Specific Heat</Name>
           <Units>
             <Unit>
@@ -200,35 +200,35 @@
               <Name/>C</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr7" quantity="260" unit="64">
+        <PropertyDetails quantity="260" id="pr7" unit="64">
           <Name>Tensile Yield Strength</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr8" quantity="259" unit="64">
+        <PropertyDetails quantity="259" id="pr8" unit="64">
           <Name>Compressive Yield Strength</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr4" quantity="261" unit="64">
+        <PropertyDetails quantity="261" id="pr5" unit="64">
           <Name>Tensile Ultimate Strength</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr1" quantity="258" unit="64">
+        <PropertyDetails quantity="258" id="pr2" unit="64">
           <Name>Compressive Ultimate Strength</Name>
           <Units>
             <Unit>
               <Name/>kPa</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr3" quantity="163" unit="175">
+        <PropertyDetails quantity="163" id="pr4" unit="175">
           <Name>Thermal Conductivity</Name>
           <Units>
             <Unit>
@@ -239,7 +239,7 @@
               <Name/>C</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr10" quantity="43" unit="107">
+        <PropertyDetails quantity="43" id="pr10" unit="107">
           <Name>Electrical Resistivity</Name>
           <Units>
             <Unit>
@@ -248,7 +248,7 @@
               <Name/>mm</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr12" quantity="1001" unit="1305">
+        <PropertyDetails quantity="1001" id="pr12" unit="1305">
           <Name>Dynamic Viscosity</Name>
           <Units>
             <Unit>
@@ -259,7 +259,7 @@
               <Name/>s</Unit>
           </Units>
         </PropertyDetails>
-        <PropertyDetails id="pr11" quantity="1004" unit="1323">
+        <PropertyDetails quantity="1004" id="pr11" unit="1323">
           <Name>Kinematic Viscosity</Name>
           <Units>
             <Unit power="2">

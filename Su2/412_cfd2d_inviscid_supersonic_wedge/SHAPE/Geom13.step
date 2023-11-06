@@ -4,7 +4,7 @@ FILE_DESCRIPTION(('WelSim Geometry'),'2;1');
 FILE_NAME(
 'D:\\WelSimLLC-github\\WelSimExamples\\Su2\\
 412_cfd2d_inviscid_supersonic_wedge\\SHAPE\\Geom13.step',
-  '2023-11-05T14:53:38',('WELSIM'),('WelSimulation LLC'),
+  '2023-11-05T20:26:46',('WELSIM'),('WelSimulation LLC'),
   'Open CASCADE STEP processor 7.5','WelSim27','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;

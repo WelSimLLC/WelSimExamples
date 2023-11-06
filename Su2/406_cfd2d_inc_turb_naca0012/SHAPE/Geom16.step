@@ -3,7 +3,7 @@ HEADER;
 FILE_DESCRIPTION(('WelSim Geometry'),'2;1');
 FILE_NAME(
 'D:\\WelSimLLC-github\\WelSimExamples\\Su2\\406_cfd2d_inc_turb_naca0012\
-\SHAPE\\Geom16.step','2023-11-05T14:46:24',('WELSIM'),(
+\SHAPE\\Geom16.step','2023-11-05T20:11:58',('WELSIM'),(
     'WelSimulation LLC'),'Open CASCADE STEP processor 7.5','WelSim27',
   'Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));

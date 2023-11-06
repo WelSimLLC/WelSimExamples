@@ -4,7 +4,7 @@ FILE_DESCRIPTION(('WelSim Geometry'),'2;1');
 FILE_NAME(
 'D:\\WelSimLLC-github\\WelSimExamples\\Su2\\
 409_cfd2d_inc_streamwise_periodic\\SHAPE\\Geom13.step',
-  '2023-11-05T14:48:52',('WELSIM'),('WelSimulation LLC'),
+  '2023-11-05T20:13:35',('WELSIM'),('WelSimulation LLC'),
   'Open CASCADE STEP processor 7.5','WelSim27','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
