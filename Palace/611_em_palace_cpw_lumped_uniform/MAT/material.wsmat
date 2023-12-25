@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WelSimMaterialData version="2.8.0.1" revision="8735" versiondate="2023-12-24">
+  <Notes>WELSIM material database file. For more information, visit https://welsim.com</Notes>
+  <SysUnits tempUnit="32" systemUnit="17" angVelocityUnit="441" angleUnit="302"/>
+  <Materials>
+    <MatML_Doc>
+      <Material>
+        <BulkDetails>
+          <Name>Sapphire</Name>
+          <ID>11</ID>
+          <PropertyData property="pr0" name="Orthotropic Relative Permeability" type="578" suppress="0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="unitless" name="Relative Permeability X" type="373">
+              <Data format="float">0.99999975</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Relative Permeability Y" type="374">
+              <Data format="float">0.99999975</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Relative Permeability Z" type="375">
+              <Data format="float">0.99999979</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr1" name="Orthotropic Relative Permittivity" type="303" suppress="0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="unitless" name="Relative Permittivity X" type="463">
+              <Data format="float">9.3</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Relative Permittivity Y" type="464">
+              <Data format="float">9.3</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Relative Permittivity Z" type="465">
+              <Data format="float">11.5</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr2" name="Orthotropic Dielectric Loss Tangent" type="305" suppress="0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="unitless" name="Dielectric Loss Tangent X" type="466">
+              <Data format="float">3e-05</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Dielectric Loss Tangent Y" type="467">
+              <Data format="float">3e-05</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Dielectric Loss Tangent Z" type="468">
+              <Data format="float">8.6e-05</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr3" name="Local Coordinates" type="581" suppress="0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="unitless" name="Creep Constant 1" type="234">
+              <Data format="float">0.8</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 2" type="235">
+              <Data format="float">0.6</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 3" type="236">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 4" type="237">
+              <Data format="float">-0.6</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 5" type="238">
+              <Data format="float">0.8</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 6" type="239">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 7" type="240">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 8" type="241">
+              <Data format="float">0</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Creep Constant 9" type="242">
+              <Data format="float">1</Data>
+            </ParameterValue>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Material>
+        <BulkDetails>
+          <Name>Structural Steel</Name>
+          <ID>2</ID>
+          <PropertyData property="pr4" name="Density" type="4" suppress="0">
+            <Data format="float">7.85e-06</Data>
+          </PropertyData>
+          <PropertyData property="pr5" name="Compressive Ultimate Strength" type="507" suppress="0">
+            <Data format="float">0</Data>
+          </PropertyData>
+          <PropertyData property="pr6" name="Isotropic Thermal Expansion" type="531" suppress="0">
+            <Data format="string">-</Data>
+            <ParameterValue parameter="pa0" name="Thermal Expansivity" type="165">
+              <Data format="float">1.2e-05</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa1" name="Temperature" type="8">
+              <Data format="float">22</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr7" name="Isotropic Thermal Conductivity" type="570" suppress="0">
+            <Data format="float">0.0605</Data>
+          </PropertyData>
+          <PropertyData property="pr8" name="Tensile Ultimate Strength" type="506" suppress="0">
+            <Data format="float">450000</Data>
+          </PropertyData>
+          <PropertyData property="pr9" name="Isotropic Elasticity" type="514" suppress="0">
+            <Data format="string">-</Data>
+            <Qualifier name="DeriveFrom" index="0">Young's Modulus and Poisson's Ratio</Qualifier>
+            <ParameterValue parameter="pa2" name="Young's Modulus" type="207">
+              <Data format="float">200000000</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Poisson's Ratio" type="210">
+              <Data format="float">0.3</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa3" name="Bulk Modulus" type="208">
+              <Data format="float">166666666.666667</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa4" name="Shear Modulus" type="209">
+              <Data format="float">76923076.9230769</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr10" name="Strain Life Parameters" type="503" suppress="0">
+            <Data format="string">-</Data>
+            <Qualifier name="Display Curve Type" index="0">Strain-Life</Qualifier>
+            <ParameterValue parameter="pa5" name="Strength Coefficient" type="201">
+              <Data format="float">920000</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Strength Exponent" type="202">
+              <Data format="float">-0.106</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Ductility Coefficient" type="203">
+              <Data format="float">0.213</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Ductility Exponent" type="204">
+              <Data format="float">-0.47</Data>
+            </ParameterValue>
+            <ParameterValue parameter="pa6" name="Cyclic Strength Coefficient" type="205">
+              <Data format="float">1000000</Data>
+            </ParameterValue>
+            <ParameterValue parameter="unitless" name="Cyclic Strain Hardening Exponent" type="206">
+              <Data format="float">0.2</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr11" name="Tensile Yield Strength" type="504" suppress="0">
+            <Data format="float">250000</Data>
+          </PropertyData>
+          <PropertyData property="pr12" name="Compressive Yield Strength" type="505" suppress="0">
+            <Data format="float">250000</Data>
+          </PropertyData>
+          <PropertyData property="pr13" name="Specific Heat" type="202" suppress="0">
+            <Data format="float">434000</Data>
+          </PropertyData>
+          <PropertyData property="unitless" name="Isotropic Relative Permittivity" type="302" suppress="0">
+            <Data format="float">1</Data>
+          </PropertyData>
+          <PropertyData property="unitless" name="Isotropic Relative Permeability" type="573" suppress="0">
+            <Data format="float">1</Data>
+          </PropertyData>
+          <PropertyData property="pr14" name="Isotropic Resistivity" type="574" suppress="0">
+            <Data format="float">0.00017</Data>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Material>
+        <BulkDetails>
+          <Name>Air</Name>
+          <ID>3</ID>
+          <PropertyData property="pr4" name="Density" type="4" suppress="0">
+            <Data format="float">1.1614e-09</Data>
+          </PropertyData>
+          <PropertyData property="pr15" name="Kinematic Viscosity" type="1002" suppress="0">
+            <Data format="float">0</Data>
+            <ParameterValue parameter="pa7" name="Cutoff Minimum Pressure" type="612">
+              <Data format="float">-1e+20</Data>
+            </ParameterValue>
+          </PropertyData>
+          <PropertyData property="pr13" name="Specific Heat" type="202" suppress="0">
+            <Data format="float">1.007e+06</Data>
+          </PropertyData>
+          <PropertyData property="pr7" name="Isotropic Thermal Conductivity" type="570" suppress="0">
+            <Data format="float">2.6e-05</Data>
+          </PropertyData>
+          <PropertyData property="unitless" name="Isotropic Relative Permittivity" type="302" suppress="0">
+            <Data format="float">1</Data>
+          </PropertyData>
+          <PropertyData property="unitless" name="Isotropic Relative Permeability" type="573" suppress="0">
+            <Data format="float">1</Data>
+          </PropertyData>
+          <PropertyData property="pr16" name="Dynamic Viscosity" type="1001" suppress="0">
+            <Data format="float">1.716e-17</Data>
+          </PropertyData>
+          <PropertyData property="unitless" name="Lamalar Prandtl Number" type="1003" suppress="0">
+            <Data format="float">0.72</Data>
+          </PropertyData>
+          <PropertyData property="unitless" name="Turbulent Prandtl Number" type="1004" suppress="0">
+            <Data format="float">0.9</Data>
+          </PropertyData>
+        </BulkDetails>
+      </Material>
+      <Metadata>
+        <ParameterDetails id="pa1" quantity="8" unit="32">
+          <Name>Temperature</Name>
+          <Units>
+            <Unit>
+              <Name/>C</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa0" quantity="165" unit="36">
+          <Name>Thermal Expansivity</Name>
+          <Units>
+            <Unit power="-1">
+              <Name/>C</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa5" quantity="201" unit="64">
+          <Name>Strength Coefficient</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa6" quantity="205" unit="64">
+          <Name>Cyclic Strength Coefficient</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa2" quantity="207" unit="64">
+          <Name>Young's Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa3" quantity="208" unit="64">
+          <Name>Bulk Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa4" quantity="209" unit="64">
+          <Name>Shear Modulus</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <ParameterDetails id="pa7" quantity="612" unit="64">
+          <Name>Cutoff Minimum Pressure</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </ParameterDetails>
+        <PropertyDetails id="pr4" quantity="26" unit="16">
+          <Name>Density</Name>
+          <Units>
+            <Unit>
+              <Name/>kg</Unit>
+            <Unit power="-3">
+              <Name/>mm</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr13" quantity="122" unit="5102">
+          <Name>Specific Heat</Name>
+          <Units>
+            <Unit>
+              <Name/>mJ</Unit>
+            <Unit power="-1">
+              <Name/>kg</Unit>
+            <Unit power="-1">
+              <Name/>C</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr11" quantity="260" unit="64">
+          <Name>Tensile Yield Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr12" quantity="259" unit="64">
+          <Name>Compressive Yield Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr8" quantity="261" unit="64">
+          <Name>Tensile Ultimate Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr5" quantity="258" unit="64">
+          <Name>Compressive Ultimate Strength</Name>
+          <Units>
+            <Unit>
+              <Name/>kPa</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr7" quantity="163" unit="175">
+          <Name>Thermal Conductivity</Name>
+          <Units>
+            <Unit>
+              <Name/>W</Unit>
+            <Unit power="-1">
+              <Name/>mm</Unit>
+            <Unit power="-1">
+              <Name/>C</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr14" quantity="43" unit="107">
+          <Name>Electrical Resistivity</Name>
+          <Units>
+            <Unit>
+              <Name/>ohm</Unit>
+            <Unit>
+              <Name/>mm</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr16" quantity="1001" unit="1312">
+          <Name>Dynamic Viscosity</Name>
+          <Units>
+            <Unit>
+              <Name/>kg</Unit>
+            <Unit power="-1">
+              <Name/>mm</Unit>
+            <Unit power="-1">
+              <Name/>ns</Unit>
+          </Units>
+        </PropertyDetails>
+        <PropertyDetails id="pr15" quantity="1004" unit="1323">
+          <Name>Kinematic Viscosity</Name>
+          <Units>
+            <Unit power="2">
+              <Name/>mm</Unit>
+            <Unit power="-1">
+              <Name/>s</Unit>
+          </Units>
+        </PropertyDetails>
+      </Metadata>
+    </MatML_Doc>
+  </Materials>
+</WelSimMaterialData>
