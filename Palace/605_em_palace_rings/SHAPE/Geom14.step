@@ -2,9 +2,9 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('WelSim Geometry'),'2;1');
 FILE_NAME(
-  'D:\\WelSimLLC\\executable28\\605_em_palace_rings\\SHAPE\\Geom14.step'
-  ,'2023-12-20T18:43:21',('WELSIM'),('WelSimulation LLC'),
-  'Open CASCADE STEP processor 7.5','WelSim28','Unknown');
+  'D:\\WelSimLLC\\executable32\\605_em_palace_rings\\SHAPE\\Geom14.step'
+  ,'2025-11-18T22:52:53',('WELSIM'),('WelSimulation LLC'),
+  'Open CASCADE STEP processor 7.5','WelSim32','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 DATA;
